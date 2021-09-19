@@ -21,13 +21,15 @@ matplotlib으로 정확도, 로스율 확인
 모델 평가
 
 모델링 h5 파일로 저장
-
+ ```
 웹서버 구성
 1) python flask 설치
 2) 만들어놓은 h5 파일 로딩
 3) javascript로 만든 canvas를 이용하여 그린 데이터를 가져옴
 4) 가져온 데이터를 new_model에 predict하여 argmax로 가장 높은 숫자를 출력
 5) 해당 index 결과값을 web homepase에 출력
+```
+
 프로젝트 발전가능성
 아이들 교육용 또는 사진이나 글자 맞추기 등 활용분야가 넓을 것으로 생각됩니다.
 
